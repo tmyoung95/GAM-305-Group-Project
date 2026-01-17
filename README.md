@@ -13,6 +13,36 @@ The game is designed as a third-person survival horror experience set in an arch
 
 Gameplay content includes modern weapons and equipment (firearms & armor) contrasted against an ancient cathedral setting, enemy cultists guarding the area, and environmental traps. Armor plates, health items, ammunition, and temporary buffs such as adrenaline shots support the survival horror gameplay.
 
+Power Pickups
+- Consumable health item (quick use): Restores health upon use
+- Ammo pickups: Ammunition for weapons
+- Battery: Used for flashlight power
+- Adrenaline shot: Temporarily increases player speed
+
+Player Equipment
+Armor Pickups
+Armor plate system will be displayed as a bar above the health bar in 4 distinct chunks:
+- Small armor plate: Restores 1 armor
+- Medium armor plate: Restores 2 armor
+- Large armor plate: Restores all 4 armor
+
+Weapon Pickups
+- Knife
+- Pistol
+- Shotgun
+- Stretch Goal: Grenade
+
+Enemy Types (Moving)
+Enemies will comprise of the cathedrals cultists, being melee focused only.\
+- Quicker: Fast movement, lower damage
+- Tank: Slow movement, high damage
+
+Obstacles (Stationary)
+- Bear trap: Renders the player immobile and causes damage
+- Saw trap: Deals damage and causes bleeding
+- Pitfalls: Instant kill
+- Barriers: Prevent progression and require key objects to continue
+
 **Development Schedule and Timeline**\
 The project development timeline follows the course structure and milestone deadlines:
 
