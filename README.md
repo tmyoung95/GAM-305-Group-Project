@@ -51,6 +51,12 @@ Bugs will be reported through Trello so the team has one centralized place for i
 **How will the bugs and their changes be tracked over time?**
 Bug progress and changes will be tracked in Trello using a consistent status workflow. Bugs will move from new to in progress to fixed to needs retesting to closed. When a bug is marked fixed, another team member retests it using aformentioned testing protocols. If it fails again, it is moved back to Tested (failed) with notes on what still occurs. This makes it easy to track what has been resolved, what is still active, and whether any fixes caused regressions in systems like pickups, traps, enemies, or progression. Additionally, the team maintains and updates an internal project document, where specific reports on feature changes can be logged and reviewed at anytime to ensure a history of bugs is present through the development lifecycle. 
 
+All content was collaboratively developed by all members of the development team:
+
+- Ziqura Thomas
+- Amya Overton
+- Anthony Munson
+- Tyler Young
 
 
 
