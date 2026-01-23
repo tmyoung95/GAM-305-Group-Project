@@ -1,4 +1,74 @@
-Project Log Assignments
+**Project Log Assignments**\
+**3-2 Project Log: QA and Testing Plan**
+
+**How will you test objects, levels, and games during the development cycle? Develop a schedule and include Play Test, Demo, and Code Release.**
+
+Play Test will occur during preproduction and early development, primarily in Weeks 3 and 4. The goal is to verify that the core mechanics work inside designated test maps before the team commits to beta goals (level building, star/end progression, refinement, etc.). During this stage the team will test basic health and respawn functionailty,  object prototypes for power up pickups, player equipment pickups, moving enemies, and stationary obstacles, along with basic player combat and enemy AI behavior. This includes verifying that the health item restores health correctly, ammo pickups add ammunition properly, the battery restores flashlight power, and the adrenaline shot increases speed temporarily and then returns to normal. It also includes verifying that armor plates work as a four chunk system and that small plates restore one chunk, medium plates restore two chunks, and large plates restore all four. Weapon pickups will also be tested in this stage so the knife, pistol, and shotgun can be equipped and used reliably.
+
+Demo testing will occur at the end of beta phase in Week 5 before the beta branch is finalized. The goal is ensuring all previous alpha functionality works in the newly dveloped beta environment. At this point the team will run full playthroughs through the current level progression route in the implemented rooms. Demo testing will focus on making sure the player can progress without being blocked by barriers, keys, or triggers, and that barriers correctly prevent progression until the intended requirement is met. Primary goals here would ensure that level designs are cohesive and placement of traps, pickups, and enemies are appropriate and to the benefit of the project. The team will also ensure that asset placement within the level does not contribute to any hindrance of player movement or game progression.  
+
+Code Release testing will occur after beta phase in Week 5, during polishing in Weeks 6 and 7. The goal is to check the code release demo against the test plan and ensure the final build matches the selected scenario document requirements. The team would be focused on identifying remaining issues with combat responsiveness and refining the gameplay loop to enhance the player experience. Any bugs found in this pahse will be reported, reworked, and retested until all sytems on the task checklist have been completed, especially in the event of regression as final tweaks to the game are being made.  
+
+**What items will be tested? Include a checklist of items to be tested (pass/fail).**
+
+The following checklist will be used during testing. Each item is recorded as pass or fail during each milestone test session:
+
+- Player movement and camera controls
+- Health system decreases correctly when damaged
+- Health pickup restores health correctly
+- Armor system displays four chunks correctly
+- Armor plates restore the correct amount of armor for small, medium, and large plates
+- Damage is applied to armor first, then health when armor is empty
+- Knife pickup equips and can be used reliably
+- Pistol pickup equips, fires, and deals damage reliably
+- Shotgun pickup equips, fires, and deals damage reliably
+- Grenade functions correctly if implemented as the stretch goal
+- Ammo pickups increase ammo for the correct weapon type
+- Battery pickup restores flashlight power correctly
+- Adrenaline shot increases speed temporarily and returns to normal afterward
+- Quicker enemy moves faster than tank enemy and deals lower damage
+- Tank enemy moves slower than quicker enemy and deals higher damage
+- Enemy melee attacks register damage correctly without double hits or missed hits
+- Bear trap triggers on contact, immobilizes the player, and deals damage
+- Saw trap triggers correctly, deals damage, and applies bleeding
+- Pitfalls trigger instant kill consistently
+- Barriers block progression until the correct condition is met
+- Level progression from start to end location is clear and functional
+- Player cannot get stuck in geometry or fall out of the level
+- UI displays health, armor, ammo, and key survival info correctly
+- No crashes during a normal playthrough
+- No soft locks where the player cannot continue
+- Animations, if implmented as the stretch goal, behave normally and do not contribute to issues with player movement/physics
+
+**How will you update the test plan to reflect changes to the game and design document?**
+
+The test plan will be updated any time the design document or implemented gameplay changes. If a feature is added, such as the grenade stretch goal, a new test item is added with clear expected behavior. If a mechanic is modified, such as adjusting how long bear traps immobilize the player or changing adrenaline duration, the existing test criteria is revised to match the new intended behavior. If content is cut, the related test items are removed so the checklist stays accurate and does not waste time testing features that no longer exist. All tracking of test items are tracked using Trello.
+
+**How will bugs be reported?**
+
+Bugs will be reported through Trello so the team has one centralized place for issues. Currently, catgories for the Trello cards include a Tested (passed) and a Tested (failed) category. If a bug is found for any specific feature, the card name is amended to reflect the bug details, and is consequently moved to the Tested (failed) category. Then the team can troubleshoot nd make any neessary changes before testing until the card can be moved to Tested (passed).
+
+**How will the bugs and their changes be tracked over time?**
+Bug progress and changes will be tracked in Trello using a consistent status workflow. Bugs will move from new to in progress to fixed to needs retesting to closed. When a bug is marked fixed, another team member retests it using aformentioned testing protocols. If it fails again, it is moved back to Tested (failed) with notes on what still occurs. This makes it easy to track what has been resolved, what is still active, and whether any fixes caused regressions in systems like pickups, traps, enemies, or progression. Additionally, the team maintains and updates an internal project document, where specific reports on feature changes can be logged and reviewed at anytime to ensure a history of bugs is present through the development lifecycle. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **2-2 Project Log: Team Formation and Project Design**
 
