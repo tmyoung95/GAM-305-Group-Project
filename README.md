@@ -1,4 +1,41 @@
 **Project Log Assignments**\
+**4-2 Project Log**
+
+**What parts of the testing process did the team perceive to go well?**
+
+The team felt that early functional testing during the alpha stage went especially well. Because we focused on testing core mechanics inside simple test maps before worrying about level design, we were able to catch a lot of issues with core elements like pickups, widgets, and enemy behavior early. Systems like health restoration, armor chunk logic, and damage application were easier to fine tune since we isolated them first. The checklist approach also helped keep everyone aligned, since we always knew exactly what behavior we were intently verifying instead of just testing casually. Multiple team member's input allowed for layers of testing to yield maximal bug identification.
+
+**How were bugs identified and corrected?**
+
+Most bugs were identified through individual playtesting sessions where team members would test newly implemented mechanics catagorized on our Needs Testing Trello card catagory. When something did not behave as expected, it was logged in Trello as Tested (failed) with notes describing what happened and under what conditions. The person responsible for that system would then adjust the blueprint logic or settings, after which another team member retested it to make sure the issue was actually resolved. This back and forth helped reduce repeat problems, especially with things like collision on traps, enemy damage registration, and UI updates for armor and health.
+
+**In terms of the QA and testing process, what would you do differently to improve the process?**
+
+Our team did not have many problems with testing processes admittedly. Functionality was tested thoroughly by each team member as new features were developed in tandem with existing features. For example, heallth restoration mechanics were tested again after developing the player UI widget that displays how many health items the player was holding just to make sure nothing was breaking under the hood. If anything, one change we would make as a team would be better dividing the feature deadlines a bit better, as we front loaded alpha phase with some of the most critical and complex elements of our game. While things have gone smooth despite this, we understand that we made Alpha phase perhaps a bit harder than it needed to be.  
+
+**What tools (chosen in Module Two) did you find successful in the development of your Alpha project? Why?**
+
+Trello was very successful because it gave us a shared view of what was being worked on, what passed testing, and what still had problems. It helped prevent confusion about task ownership and kept testing tied directly to features. Discord was also effective for quick communication, especially during live troubleshooting when someone could share their screen and walk through blueprint logic. Frequent meetings helped align the team on prioriites, feature development sequence, and general support check ins. The discord chat helped streamline topics and gave us a history of any development challenges and their solutions. The internal development document helped remind the team of our objectives and required elements, and all team members were notified as the document was updated. 
+
+**Were there any tools or techniques that you did not find helpful in the success of your project development? Why?**
+
+The team feels that none of the tools utilized had any negative drawbacks. While minimalistic, each tool provided a clear purpose and a means to easily and clearly communicate project needs on a regular basis.  
+
+**How did the team approach to the initial analysis of the game design document contribute to the decision to use these tools and techniques?**
+
+Because we broke down the design document into specific systems early, like health, armor chunks, weapon pickups, enemies, and traps, it made sense to use tools that supported tracking individual features. Trello matched this system by system structure well, and our checklist came directly from the mechanics defined in the design. The design document also made it clear that progression and survival systems were core to the experience, which is why we focused testing around core mechanics rather than just visuals or environment details during Alpha phase.
+
+All content was collaboratively developed by all members of the development team:
+
+- Ziqura Thomas
+- Amya Overton
+- Anthony Munson
+- Tyler Young
+
+
+
+
+
 **3-2 Project Log: QA and Testing Plan**
 
 **How will you test objects, levels, and games during the development cycle? Develop a schedule and include Play Test, Demo, and Code Release.**
