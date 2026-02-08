@@ -1,4 +1,31 @@
 **Project Log Assignments**\
+
+**5-2 Project Log**\
+
+**What parts of the plan did the team perceive to go well in relation to the last stage evaluation?**
+
+The team felt that our structured, methodical approach to beta phase paid off by nailing down most of the functional gamplay features down beforehand. This allowed us to focus on level design and asset placement that shaped how the game played from a players persepctive, which allowed us to leverage our work more towards engaging gameplay. Since we all took different room responsibilites on the same level, we schedules a day per team member to make changes so we can fluidly build off of each others work while reducing repository conflicts. This breakdown of development time allowed us to fnish most of the essential level building swiftly and with respects to the work that was done previously. 
+
+**What parts of the plan did the team perceive to go wrong in relation to the last stage evaluation?**
+
+One challenge we noticed is that while Alpha focused heavily on core mechanics, integrating those mechanics into full level layouts revealed new edge cases we did not encounter in isolated test maps. For example, enemy movement functionalties seem to have been effected in certain level areas while being previosuly fluid in the test maps. Additionally, we noticed just how many changes to core features we may want to implement during the polishing phase before code release. These experiences have led us to maybe critique our scheduling process and be more thorough on further iterations. 
+
+**How were the previous evaluations integrated into this latest stage?**
+
+Feedback from earlier evaluations pushed us to continue using checklists and clearly defined expected behaviors for each system. We kept the same Trello-based pass/fail tracking and applied it directly to Beta testing, especially during full playthrough testing of progression, barriers, and enemy placement. Our earlier focus on retesting systems after any change was also maintained, so when level adjustments or balance tweaks were made, related systems like damage, pickups, or UI were retested. The emphasis on communication and documentation from earlier stages also carried forward, as we used Discord discussions and our internal document to clarify changes and keep everyone aligned.
+
+**What would you do differently to improve the collaboration or development process?**
+
+If we were to improve the process, we would better distribute workload between system development and level integration earlier. While our system stability was strong, more early testing inside rough level layouts during Alpha could have helped diagnose some environment-related issues sooner. We would also consider setting smaller internal deadlines for room completion to reduce last-minute integration pressure during Beta. Overall collaboration remained strong, but earlier cross-testing of each other’s level spaces could have improved flow and reduced certain errors.
+
+**Were there any tools or techniques that you did not find helpful in the success of your project development? Why?**
+
+Similar to earlier stages, the team did not find any of our selected tools to be unhelpful. Trello, Discord, and our internal documentation each served a clear role in tracking, communication, and reference. The simplicity of our toolset actually helped reduce confusion and kept the focus on development.
+
+**Identify the completed stage of development of the intended Beta and address the project schedule to meet Final Release development deadline.**
+
+At this point, Beta relects the bulk of our core features and level design. We will need use Code Release (Final) to fix enemy behaviors in the newly designed levels and implement quality of life changes if we are to completely check all tasks off the list. If these fixes can be made early, we would like to use the next phase to meet our stretch goals, as most of the project requirements have been met. 
+
 **4-2 Project Log**
 
 **What parts of the testing process did the team perceive to go well?**
