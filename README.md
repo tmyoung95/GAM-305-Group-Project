@@ -1,6 +1,37 @@
-**Project Log Assignments**\
+**Project Log Assignments**
 
-**5-2 Project Log**\
+**6-2 Project Log**
+
+**What parts of the plan did the team perceive to go well in relation to the last stage evaluation?**
+
+For Final (Code Release), the team felt our structured approach continued to pay off. The team collaboratively approached critical bugs (like the issues with enemy movement) early on, so that we could continue to develop things like level design and asset placement without worrying about breaking core gameplay features. Continuing to assign specific development days for team members continued to prevent repository conflicts, and we felt that since we had gotten so many of our critical features developed during Alpha and Beta phases, development this week was a lot lighter on the workload and allowed us to focus on making small quality-of-life changes. 
+
+**What parts of the plan did the team perceive to go wrong in relation to the last stage evaluation?**
+
+While our development process met all goals required by the project document, we did feel that our short development timeline lacked the needed time to accomplish certain stretch goals (character/enemy meshes, animations, and sound effects). Despite this, the team feels that the overall project was a success, and that given time to expand from this point, we would be on track to deliver an impressive finished product as a first time game development effort. 
+
+**How were the previous evaluations integrated into this latest stage?**
+
+Feedback from earlier evaluations continued to guide our development efforts into Code Release. The checklist-based testing structure remained in place, and we continued using Trello to track pass/fail outcomes and bug status updates. Any time a system was adjusted during polishing, related systems were retested to ensure we could retain our core gameplay functionalities. The emphasis on communication and documentation also carried forward. Discord discussions were used for troubleshooting and clarification, and our internal development document was updated to reflect feature adjustments. Full playthrough testing became a stronger focus during this stage, aligning with our Demo and Code Release testing plan established earlier in the project. 
+
+**What would you do differently to improve the collaboration or development process?**
+
+The team greatly feels that more development time would be one of the best ways to improve the development process. Our collaboration strategy of frequent Discord calls and chat logs made keeping in contact and communicating project needs quicly to be very effective, and Trello made it easy to keep track of which tasks needed to be developed, retested, or finalized. That being said, an additional week or two would have given us more time to meet stretch goals to really go above and beyond the project requirements. 
+
+**Were there any tools or techniques that you did not find helpful in the success of your project development? Why?**
+
+To be transparent, the team really did not feel that any of our tools or stretegies to be unhelpful. As previously mentioned, Discord, Trello, and our internal project development document provided a means for all of our teams needs. The simplicity of our tools truly made using them effortless and facilitated multiple ways to communicate the project's wellbeing throughout all phases. The team's cohesion and positivity from day one really shined through all phases, that we're all conviced we would have made a great project no matter what tools we used. Thank you GAM-305, being a part of this team was truly a great experience. 
+
+All content was collaboratively developed by all members of the development team:
+
+- Ziqura Thomas
+- Amya Overton
+- Anthony Munson
+- Tyler Young
+
+
+
+**5-2 Project Log**
 
 **What parts of the plan did the team perceive to go well in relation to the last stage evaluation?**
 
